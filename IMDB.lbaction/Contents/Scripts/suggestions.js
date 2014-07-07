@@ -21,11 +21,19 @@ function runWithString(argument) {
     for (var i = 0; i < results.length; i++) {
         var result = results[i];
 
-        if (result.Type == "game") continue;
+        var icon = false;
+
+        if (result.Type == "movie")
+        {
+            icon = "at.obdev.LaunchBar:MoviesTemplate";
+        } else if (result.Type == "series") {
+            icon = "at.obdev.LaunchBar:TVShowsTemplate";
+        }
 
         suggestions.push({
                     title: result.Title,
                     url: "http://www.imdb.com/title/" + result.imdbID,
+                    icon: icon,
                 });
     }
 

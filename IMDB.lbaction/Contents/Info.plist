@@ -36,10 +36,12 @@
 		</dict>
 		<key>LBSuggestionsScript</key>
 		<dict>
-			<key>LBRunInBackground</key>
+			<key>LBLiveFeedbackEnabled</key>
 			<true/>
 			<key>LBScriptName</key>
 			<string>suggestions.js</string>
+			<key>LBBackgroundKillEnabled</key>
+			<true/>
 		</dict>
 	</dict>
 	<key>LBTextInputTitle</key>

@@ -3,13 +3,13 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleIconFile</key>
-	<string>icon</string>
+	<string>IMDbTemplate</string>
 	<key>CFBundleIdentifier</key>
 	<string>com.kyleacarson.LaunchBar.action.IMDB</string>
 	<key>CFBundleName</key>
 	<string>IMDB</string>
 	<key>CFBundleVersion</key>
-	<string>1.0</string>
+	<string>1.1</string>
 	<key>LBDescription</key>
 	<dict>
 		<key>LBAuthor</key>
@@ -45,6 +45,6 @@
 		</dict>
 	</dict>
 	<key>LBTextInputTitle</key>
-	<string>YouTube</string>
+	<string>IMDB</string>
 </dict>
 </plist>
